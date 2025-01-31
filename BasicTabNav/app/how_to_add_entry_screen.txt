@@ -1,7 +1,6 @@
-
-
-If want to add an entry screen the user will see first, you can add a file
-called index.tsx in your app folder and then have sligtly different code in your app/_layout.tsx file
+If want to add an entry screen the user will see first before the tab navigation, 
+you can add a file called index.tsx in your app folder and then have sligtly 
+different code in your app/_layout.tsx file
 
 _layout.tsx:
 Here this is telling it to have a Stack with two options at the entry point.
@@ -21,7 +20,7 @@ export default function RootLayout() {
   );
 }
 
-
+*******************************************************************************************
 index.tsx inside app folder
 This is a landing page and simply has a button to click on to navigate to the 
 tab navigation
