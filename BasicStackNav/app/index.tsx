@@ -1,18 +1,13 @@
 import { View, Text, Button, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
-import colors from "@/styles/colors";
 
 export default function IndexScreen() {
-  const router = useRouter();
+  const router = useRouter(); // Navigation hook
 
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Welcome to the App</Text>
-      <Button
-        title="Enter App"
-        color={colors.primary}
-        onPress={() => router.push("/(tabs)")}
-      />
+      <Button title="Go to Home" onPress={() => router.push("/home")} />
     </View>
   );
 }
@@ -20,14 +15,11 @@ export default function IndexScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.darkbackground,
     justifyContent: "center",
     alignItems: "center",
   },
   text: {
     fontSize: 24,
-    fontWeight: "bold",
-    color: colors.textondark,
     marginBottom: 20,
   },
 });
