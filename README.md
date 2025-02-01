@@ -13,3 +13,10 @@ This app shows how to use the \_layout.tsx file along with the (tabs) folder so 
 can utilize a Tab navigation. Also in the app folder is an additional file title
 how_to_add_entry_screen.txt that explains how to combine a Stack Nav and a Tab Nav to make it
 so that you can have an entry screen that loads first and then enter the Tab Nav.
+
+## NestedNavPassData
+
+This app shows how to use a loading screen and then enter into a tab navigation. I am also
+showing a simple way to pass data from one screen to another using parameters. If you have
+a more complex data system where you will want to have data persist across many screens,
+then you should use the context - which is the recommended method for global data.
