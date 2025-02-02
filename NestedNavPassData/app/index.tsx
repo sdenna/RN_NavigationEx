@@ -1,8 +1,8 @@
 import { View, Text, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
 import colors from "@/styles/colors";
-import TextField from "./components/TextField";
-import Button from "./components/Button";
+import TextField from "../components/TextField";
+import Button from "../components/Button";
 import { act, useState } from "react";
 
 export default function IndexScreen() {

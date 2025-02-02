@@ -37,9 +37,7 @@ export default function TabsLayout() {
           headerTitle: "Family",
           tabBarIcon: ({ focused, color }) => (
             <Ionicons
-              name={
-                focused ? "information-circle" : "information-circle-outline"
-              }
+              name={focused ? "people" : "people-outline"}
               size={24}
               color={color}
             />
@@ -52,7 +50,7 @@ export default function TabsLayout() {
           headerTitle: "School",
           tabBarIcon: ({ focused, color }) => (
             <Ionicons
-              name={focused ? "add" : "add-circle-outline"}
+              name={focused ? "school" : "school-outline"}
               size={24}
               color={color}
             />
