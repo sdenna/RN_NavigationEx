@@ -1,6 +1,7 @@
 # RN_NavigationEx
 
 Created in 2025 to show examples for navigation using Expo Router and typscript
+This repo goes along with the notes in this [document](https://docs.google.com/document/d/1yb6pyTp05UfF9IpnzkT4mqrpnpNfmS4PvGONy_R4V7o/edit?usp=sharing) for lesson 10 on Navigation
 
 ## How to run these sample apps
 
@@ -27,4 +28,4 @@ This app shows how to use the \_layout.tsx file along with the (tabs) folder so 
 
 ## NestedNavPassData
 
-This app shows how to use a loading screen and then enter into a tab navigation. I am also showing a simple way to pass data from one screen to another using parameters. If you have a more complex data system where you will want to have data persist across many screens, then you should use the context - which is the recommended method for global data.
+This app shows how to use a loading screen and then enter into a tab navigation. I am also showing a simple way to pass data from one screen to another using parameters. If you have a more complex data system where you will want to have data persist across many screens, then you should research more advanced ways to interact with global data.
