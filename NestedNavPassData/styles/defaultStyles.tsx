@@ -23,7 +23,7 @@ const defaultStyles = StyleSheet.create({
     marginVertical: 5,
     borderWidth: 2,
     fontSize: 16,
-    color: colors.secondary,
+    color: colors.primarylight,
     borderRadius: 5,
   },
 });

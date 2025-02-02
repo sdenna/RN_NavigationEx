@@ -8,9 +8,7 @@ export default function HomeScreen() {
   const { name, activity } = useLocalSearchParams();
   return (
     <View style={defaultStyles.pageContainer}>
-      <Text style={defaultStyles.titleText}>
-        {name}, {activity}
-      </Text>
+      <Text style={defaultStyles.titleText}>All about {name}</Text>
       <Text style={defaultStyles.bodyText}>Best Home Page</Text>
     </View>
   );
