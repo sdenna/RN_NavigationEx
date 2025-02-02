@@ -8,6 +8,10 @@ const defaultStyles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  titleText: {
+    fontSize: 36,
+    color: colors.textondark,
+  },
   bodyText: {
     fontSize: 20,
     color: colors.textondark,

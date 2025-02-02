@@ -31,7 +31,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          headerTitle: `${name}\'s Home`,
+          headerTitle: name + "'s Home",
           tabBarIcon: ({ focused, color }) => (
             <Ionicons
               name={focused ? "home-sharp" : "home-outline"}
@@ -40,11 +40,12 @@ export default function TabsLayout() {
             />
           ),
         }}
+        initialParams={{ name, activity }}
       />
       <Tabs.Screen
         name="family"
         options={{
-          headerTitle: `${name}\'s Family`,
+          headerTitle: name + "'s Family",
           tabBarIcon: ({ focused, color }) => (
             <Ionicons
               name={focused ? "people" : "people-outline"}
@@ -57,7 +58,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="school"
         options={{
-          headerTitle: `School Activity: ${activity}`,
+          headerTitle: "School Activity: " + activity,
           tabBarIcon: ({ focused, color }) => (
             <Ionicons
               name={focused ? "school" : "school-outline"}
@@ -66,6 +67,7 @@ export default function TabsLayout() {
             />
           ),
         }}
+        initialParams={{ name, activity }}
       />
     </Tabs>
   );
