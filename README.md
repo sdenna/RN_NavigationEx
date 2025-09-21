@@ -28,4 +28,4 @@ This app shows how to use the \_layout.tsx file along with the (tabs) folder so 
 
 ## NestedNavPassData
 
-This app shows how to use a loading screen and then enter a tab navigation. I am also showing a simple way to pass data from one screen to another using parameters. If you have a more complex data system where you will want to have data persist across many screens, then you should research more advanced ways to interact with global data.
+This app shows how to use a loading screen and then enter a tab navigation. I am also showing a simple way to pass data from one screen to another using parameters. If you have a more complex data system where you will want to have data persist across many screens, then you should research more advanced ways to interact with global data (use as using context or Zustand).
