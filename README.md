@@ -1,6 +1,6 @@
 # RN_NavigationEx
 
-Created in 2025 to show examples for navigation using Expo Router and typscript
+Created in February, 2025 to show examples for navigation using Expo Router and TypeScript.
 This repo goes along with the notes in this [document](https://docs.google.com/document/d/1yb6pyTp05UfF9IpnzkT4mqrpnpNfmS4PvGONy_R4V7o/edit?usp=sharing) for lesson 10 on Navigation
 
 ## How to run these sample apps
@@ -20,12 +20,12 @@ Once there, run these commands as needed:
 
 ## BasicStackNav
 
-This app simply shows how to set up an \_layout.tsx file in the app folder along with pages for each of the screens. The \_layout.tsx shows the Root Layout
+This app shows how to set up a \_layout.tsx file in the app folder along with pages for each of the screens. The \_layout.tsx shows the Root Layout
 
 ## BasicTabNav
 
-This app shows how to use the \_layout.tsx file along with the (tabs) folder so that you can utilize a Tab navigation. Also in the app folder is an additional file title how_to_add_entry_screen.txt that explains how to combine a Stack Nav and a Tab Nav to make it so that you can have an entry screen that loads first and then enter the Tab Nav.
+This app shows how to use the \_layout.tsx file along with the (tabs) folder so that you can utilize a Tab navigation. Also in the app folder is an additional file titled 'how_to_add_entry_screen.txt' that explains how to combine a Stack Nav and a Tab Nav to create an entry screen that loads first and then enters the Tab Nav.
 
 ## NestedNavPassData
 
-This app shows how to use a loading screen and then enter into a tab navigation. I am also showing a simple way to pass data from one screen to another using parameters. If you have a more complex data system where you will want to have data persist across many screens, then you should research more advanced ways to interact with global data.
+This app shows how to use a loading screen and then enter a tab navigation. I am also showing a simple way to pass data from one screen to another using parameters. If you have a more complex data system where you will want to have data persist across many screens, then you should research more advanced ways to interact with global data.
