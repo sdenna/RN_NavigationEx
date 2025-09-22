@@ -1,6 +1,6 @@
 # RN_NavigationEx
 
-Created in February, 2025 to show examples for navigation using Expo Router and TypeScript.
+Updated September, 2025 to show examples for navigation using Expo Router and TypeScript.
 This repo goes along with the notes in this [document](https://docs.google.com/document/d/1yb6pyTp05UfF9IpnzkT4mqrpnpNfmS4PvGONy_R4V7o/edit?usp=sharing) for lesson 10 on Navigation
 
 ## How to run these sample apps
