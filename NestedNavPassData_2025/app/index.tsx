@@ -11,9 +11,10 @@ export default function IndexScreen() {
   const [activity, setActivity] = useState<string>("");
 
   const openTabNav = () => {
-    if (name != "" && activity != "")
+    if (name != "" && activity != "") {
+      setName(name);
       router.push({ pathname: "/(tabs)", params: { name, activity } });
-    else alert("Please enter your name and activity");
+    } else alert("Please enter your name and activity");
   };
 
   return (

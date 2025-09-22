@@ -54,6 +54,7 @@ export default function TabsLayout() {
             />
           ),
         }}
+        initialParams={{ name, activity }}
       />
       <Tabs.Screen
         name="school"
