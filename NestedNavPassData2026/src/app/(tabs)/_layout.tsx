@@ -1,5 +1,5 @@
 import colors from "@/styles/colors";
-import { Ionicons } from "@expo/vector-icons";
+import { Ionicons } from "@react-native-vector-icons/ionicons";
 import { Tabs, useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect } from "react";
 
